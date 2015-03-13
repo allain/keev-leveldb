@@ -1,0 +1,31 @@
+{
+  "name": "keev-leveldb",
+  "version": "0.1.0",
+  "description": "A LevelDB backed keev store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allain/keev-leveldb"
+  },
+  "keywords": [
+    "leveldb",
+    "keev",
+    "streaming store"
+  ],
+  "author": "allain <allain.lalonde@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/allain/keev-leveldb/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "keev": "^0.1.0",
+    "level": "^0.18.0",
+    "mocha": "~1.17.0",
+    "stdout": "0.0.3"
+  }
+}
