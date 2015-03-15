@@ -20,10 +20,12 @@
   "bugs": {
     "url": "https://github.com/allain/keev-leveldb/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "async-each": "^0.1.6"
+  },
   "devDependencies": {
     "chai": "~1.8.1",
-    "keev": "^0.1.0",
+    "keev": "^0.3.0",
     "level": "^0.18.0",
     "mocha": "~1.17.0",
     "stdout": "0.0.3"
